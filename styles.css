@@ -1,0 +1,117 @@
+:root{
+    --main-color: #0a0a0a;
+    --secondary-color: #14005e;
+    --font-size-larage: 24px;
+}
+    
+    
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f0f4fa;
+    margin: 20px;
+    
+}
+
+
+.h1{
+    color:var(--secondary-color);
+    font-size: var(--font-size-large);
+    text-align: center;
+}
+
+
+.footer{
+    color: #164ba1;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 95%;
+}
+
+
+.intro{
+    text-align: center;
+    margin-top: 70px; 
+    font-size: var(--font-size-large);
+    color: var(--secondary-color);
+    padding-top: var(--padding-large) var(--padding-medium);
+}
+
+
+.flexbox-section{
+    padding: var(--padding-medium);
+    background-color: #8daeec;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: var(--padding-medium);
+}
+
+.flex-container{
+    padding: var(--padding-medium);
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item{
+    flex: 1;
+    background-color: var(--primary-color);
+    color: #0105ff;
+    padding: var(--padding-medium);
+    border-radius: 8px;
+    text-align: center;
+    font-size: var(--font-size-small);
+    margin-bottom: var(--padding-medium);
+}
+
+
+.grid-section{
+    padding: var(--padding-medium);
+    background-color: #8daeec;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: var(--padding-medium);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--padding-small);
+}
+
+.grid-item {
+    background-color: var(--primary-color);
+    color: #0105ff; 
+    padding: var(--padding-medium);
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.positioning-section {
+    padding: var(--padding-large);
+    background-color: #ff7300;
+    position: relative;
+}
+
+.relative-container {
+    position: relative;
+    padding: var(--padding-medium);
+    background-color: var(--secondary-color);
+    color: #fafafa;
+    border-radius: 8px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: var(--padding-small);
+    background-color: #14005e;
+    color: var(--font-size-small);
+    border-radius: 4px;
+}
+
+.absolute-box p {
+    margin: 0;
+    font-size: var(--font-size-small);
+}
